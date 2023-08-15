@@ -1,11 +1,11 @@
-todo status          Shows all items of the selected todo list<br>
-todo create [name]   Makes and selects a new todo list with optional name<br>
-todo add    [text]   Adds an item to the selected todo list <br>
-todo check  [text]   Checks the given item, if the text is ambigouos, then all matching items are shown and one item is interactively selected.<br>
-todo toggle [text]   Similar to check<br>
-todo select [name]   Selects given todo list, if no name is supplied, all lists are displayed for interactive selection.<br>
-todo dependency [list]:\[index\] [text] Add a dependency to an item<br>
-todo trigger \[shell script name\] [text] Makes a new trigger. Whenever the todo programs is ran, all triggers are run. The exit code of the shell script determines whether to check or uncheck the item.<br>
+`todo status`          Shows all items of the selected todo list<br>
+`todo create [name]`   Makes and selects a new todo list with optional name<br>
+`todo add    [text]`   Adds an item to the selected todo list <br>
+`todo check  [text]`   Checks the given item, if the text is ambigouos, then all matching items are shown and one item is interactively selected.<br>
+`todo toggle [text]`   Similar to check<br>
+`todo select [name]`   Selects given todo list, if no name is supplied, all lists are displayed for interactive selection.<br>
+`todo dependency [list]:\[index\] [text]` Add a dependency to an item<br>
+`todo trigger \[shell script name\] [text]` Makes a new trigger. Whenever the todo programs is ran, all triggers are run. The exit code of the shell script determines whether to check or uncheck the item.<br>
 ```
 $ todo create
 $ todo add "Go outside"
