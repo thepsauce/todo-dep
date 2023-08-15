@@ -13,7 +13,7 @@ $ todo add "Clean bathtub"
 $ todo status
 unnamed list:
 1. [ ] Go outside
-2. [ ] Welcom
+2. [ ] Clean bathtub
 $ todo check C
 $ todo create
 $ todo add ""
@@ -34,5 +34,5 @@ Things:
 1. [ ] Go outside
 -> Depends on [ ] Whether it's nice weather
 2. [X] Clean bathtub
-$ todo trigger get\_weather.sh "Whether it's nice weather"
+$ todo trigger get_weather.sh "Whether it's nice weather"
 ```
