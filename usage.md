@@ -16,7 +16,7 @@ unnamed list:
 2. [ ] Clean bathtub
 $ todo check C
 $ todo create
-$ todo add ""
+$ todo add "Whatever"
 $ todo select
 1. unnamed list
 2. unnamed list 2
