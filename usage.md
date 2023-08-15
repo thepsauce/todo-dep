@@ -1,3 +1,4 @@
+```
 todo status          Shows all items of the selected todo list
 todo create [name]   Makes and selects a new todo list with optional name
 todo add    [text]   Adds an item to the selected todo list 
@@ -35,3 +36,4 @@ Things:
 -> Depends on [ ] Whether it's nice weather
 2. [X] Clean bathtub
 $ todo trigger get\_weather.sh "Whether it's nice weather"
+```
